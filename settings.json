@@ -1,0 +1,92 @@
+// My productive privacy focused setup for VSCode
+
+{
+    // Workbench
+    "workbench.colorTheme": "Dark 2026",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": false,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+    "workbench.startupEditor": "none",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.cloudChanges.autoResume": "off",
+    "workbench.cloudChanges.continueOn": "off",
+    "workbench.enableExperiments": false,
+    "update.showReleaseNotes": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+
+    // Window
+    "window.zoomLevel": 1,
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "visible",
+
+    // Editor
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.colorDecorators": false,
+    "editor.codeLens": false,
+    "editor.links": true,
+    "editor.matchBrackets": "always",
+    "editor.lightbulb.enabled": "off",
+    "scm.diffDecorations": "gutter",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": false,
+
+    // Security & Telemetry
+    "telemetry.telemetryLevel": "off",
+    "telemetry.feedback.enabled": false,
+    "json.schemaDownload.enable": false,
+    "npm.fetchOnlinePackageInfo": false,
+    "security.workspace.trust.enabled": true,
+
+    // Git
+    "git.decorations.enabled": false,
+    "git.autofetch": false,
+
+    // General AI
+    "chat.disableAIFeatures": true,
+
+    // Extensions (General)
+    "python.experiments.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "intelephense.telemetry.enabled": false,
+    "extensions.ignoreRecommendations": true,
+
+    // Claude Code
+    "claudeCode.attachOpenFile": false,
+    "claudeCode.initialPermissionMode": "default",
+    "claudeCode.respectGitIgnore": true,
+    "claudeCode.hideOnboarding": true,
+    "claudeCode.focusView": true,
+    "claudeCode.preferredLocation": "panel",
+
+    // Files
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}
